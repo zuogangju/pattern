@@ -1,13 +1,13 @@
 ---------------------------------创建型-->抽象工厂模式--------------------------------------
 生产轮胎过程
-	CarFactor(抽象工厂)-->AFactory(具体工厂)-->ITire(生产轮胎)-->NormalTire(普通轮胎)
-												  		-->SUVTire(越野轮胎)											 
+	FactorCar(抽象工厂)-->FactoryA(具体工厂)-->Tire(生产轮胎)-->TireNormal(普通轮胎)
+												  		-->TireSUV(越野轮胎)											 
 生产制动系统过程											 
-	CarFactor(抽象工厂)-->AFactory(具体工厂)-->IBrake(制动系统)-->NormalBrake(普通制动)
-												   		-->SeniorBrake(高级制动)	
+	FactorCar(抽象工厂)-->FactoryA(具体工厂)-->Brake(制动系统)-->BrakeNormal(普通制动)
+												   		-->BrakeSenior(高级制动)	
 生产发动机过程											 
-	CarFactor(抽象工厂)-->AFactory(具体工厂)-->IEngine(发动机)-->DomesticEngine(国产发动机)
-											       	   	-->ImportEngine(进口发动机)	
+	FactorCar(抽象工厂)-->FactoryA(具体工厂)-->Engine(发动机)-->EngineDomestic(国产发动机)
+											       	   	-->EngineImport(进口发动机)	
 											       
 意图：
 	提供一个创建一系列相关或相互依赖对象的接口，而无需指定它们具体的类。 
