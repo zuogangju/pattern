@@ -8,8 +8,8 @@ package com.pattern.createtype.factory;
  */
 public class Client {
 	public static void main(String[] args) {
-		Factory factory = new ConcreteFactory();
-		Product product = factory.createProduct(ConcreteProductB.class);
+		Factory factory = new FactoryConcrete();
+		Product product = factory.createProduct(ProductBConcrete.class);
 		product.method();
 	}
 }

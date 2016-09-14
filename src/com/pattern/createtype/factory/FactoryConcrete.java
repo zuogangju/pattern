@@ -7,7 +7,7 @@ package com.pattern.createtype.factory;
  * @author zuozuo
  * @date 2016年9月14日 下午4:05:01
  */
-public class ConcreteFactory extends Factory {
+public class FactoryConcrete extends Factory {
 	
 	@SuppressWarnings("unchecked")
 	@Override

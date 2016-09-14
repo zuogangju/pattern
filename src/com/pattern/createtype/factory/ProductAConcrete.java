@@ -7,7 +7,7 @@ package com.pattern.createtype.factory;
  * @author zuozuo
  * @date 2016年9月14日 下午4:03:36
  */
-public class ConcreteProductA extends Product {
+public class ProductAConcrete extends Product {
 
 	@Override
 	public void method() {
