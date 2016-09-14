@@ -6,7 +6,7 @@ package com.pattern.createtype.abfactory;
 * @author zuozuo
 * @date 2016年9月14日 上午11:46:26
  */
-public class SUVTire implements ITire{
+public class TireSUV implements Tire{
 	@Override
 	public void tire() {
 		System.out.println("越野轮胎");

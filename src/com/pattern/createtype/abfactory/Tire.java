@@ -6,7 +6,7 @@ package com.pattern.createtype.abfactory;
 * @author zuozuo
 * @date 2016年9月14日 上午11:45:15
  */
-public interface ITire {
+public interface Tire {
 	/**
 	 * 轮胎 
 	 */

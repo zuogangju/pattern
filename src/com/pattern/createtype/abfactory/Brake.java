@@ -6,7 +6,7 @@ package com.pattern.createtype.abfactory;
 * @author zuozuo
 * @date 2016年9月14日 上午11:44:42
  */
-public interface IBrake {
+public interface Brake {
 	/**
 	 *制动系统 
 	 */

@@ -6,7 +6,7 @@ package com.pattern.createtype.abfactory;
 * @author zuozuo
 * @date 2016年9月14日 上午11:46:02
  */
-public class SeniorBrake implements IBrake{
+public class BrakeSenior implements Brake{
 	@Override
 	public void brake() {
 		System.out.println("高级制动");
