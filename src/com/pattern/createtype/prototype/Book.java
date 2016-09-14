@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 public class Book implements Cloneable{
 
-    private int price;
-    private String title;
-    private String content;
-    private ArrayList<String> image = new ArrayList<String>();
+    private int price;//价格
+    private String title;//书名
+    private String content;//内容
+    private ArrayList<String> image = new ArrayList<String>();//图片
 
     public Book() {
         super();
@@ -24,7 +24,7 @@ public class Book implements Cloneable{
         return image;
     }
 
-    public void addImage(String img){
+    public void setImage(String img){
         this.image.add(img);
     }
 
@@ -63,7 +63,6 @@ public class Book implements Cloneable{
 
     public void showBook(){
         System.out.println("=====Start=====");
-
         System.out.println("title："+title);
         for(String img : image){
             System.out.println("image name:"+img);
