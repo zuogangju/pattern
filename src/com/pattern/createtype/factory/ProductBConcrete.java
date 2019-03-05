@@ -1,13 +1,12 @@
 package com.pattern.createtype.factory;
-
 /**
- * 
- * @ClassName: ConcreteProductB
- * @Description: 具体产品类A
- * @author zuozuo
- * @date 2016年9月14日 下午4:04:21
+ * Description: 具体产品类B
+ *
+ * @author zuogangju
+ * @date 2019/3/4 13:57
+ * @version V1.0
  */
-public class ProductBConcrete extends Product {
+public class ProductBConcrete extends BaseProduct {
 
 	@Override
 	public void method() {

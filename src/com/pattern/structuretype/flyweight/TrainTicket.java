@@ -2,13 +2,30 @@ package com.pattern.structuretype.flyweight;
 
 import java.util.Random;
 
-//火车票
+/**
+ * Description: 火车票
+ *
+ * @author zuogangju
+ * @date 2019/3/4 15:57
+ * @version V1.0
+ */
 public class TrainTicket implements Ticket{
-
-	public String from; // 始发地
-	public String to; // 目的地
-	public String bunk; //铺位
-	public int price; //价格
+	/**
+	 *  始发地
+	 */
+	public String from;
+	/**
+	 *  目的地
+	 */
+	public String to;
+	/**
+	 *  铺位
+	 */
+	public String bunk;
+	/**
+	 *  价格
+	 */
+	public int price;
 	
 	public TrainTicket(String from, String to) {
 		this.from = from;

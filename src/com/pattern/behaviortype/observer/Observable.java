@@ -1,7 +1,11 @@
 package com.pattern.behaviortype.observer;
 
 /**
- * 抽象被观察者类
+ * Description: 抽象被观察者类
+ *
+ * @author zuogangju
+ * @date 2019/3/4 16:30
+ * @version V1.0
  */
 public interface Observable {
 

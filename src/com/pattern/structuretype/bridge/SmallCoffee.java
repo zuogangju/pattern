@@ -1,8 +1,14 @@
 package com.pattern.structuretype.bridge;
-
+/**
+ * Description: 小杯咖啡实现类
+ *
+ * @author zuogangju
+ * @date 2019/3/4 16:12
+ * @version V1.0
+ */
 public class SmallCoffee extends Coffee{
 
-	public SmallCoffee(CoffeeAdditives impl) {
+	public SmallCoffee(BaseCoffeeAdditives impl) {
 		super(impl);
 	}
 

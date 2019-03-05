@@ -9,13 +9,13 @@ package com.pattern.createtype.abfactory;
 public class Client {
 	public static void main(String[] args) {
 		//A车厂
-		FactoryCar factoryA = new FactoryA();
+		BaseFactoryCar factoryA = new FactoryA();
 		factoryA.createTire().tire();
 		factoryA.createEngine().engine();
 		factoryA.createBrake().brake();
 		System.out.println("---------------");
 		//B车厂
-		FactoryCar factoryB = new FactoryB();
+		BaseFactoryCar factoryB = new FactoryB();
 		factoryB.createTire().tire();
 		factoryB.createEngine().engine();
 		factoryB.createBrake().brake();

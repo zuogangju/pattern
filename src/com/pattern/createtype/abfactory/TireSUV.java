@@ -1,14 +1,14 @@
 package com.pattern.createtype.abfactory;
 /**
- * 
-* @ClassName: SUVTire
-* @Description: 轮胎实现类
-* @author zuozuo
-* @date 2016年9月14日 上午11:46:26
+ * Description: SUV轮胎实现类
+ *
+ * @author zuogangju
+ * @date 2019/3/4 14:54
+ * @version V1.0
  */
 public class TireSUV implements Tire{
 	@Override
 	public void tire() {
-		System.out.println("越野轮胎");
+		System.out.println("SUV轮胎");
 	}
 }

@@ -1,10 +1,10 @@
 package com.pattern.createtype.abfactory;
 /**
- * 
-* @ClassName: NormalTire
-* @Description: 轮胎实现类
-* @author zuozuo
-* @date 2016年9月14日 上午11:45:51
+ * Description: 普通轮胎实现类
+ *
+ * @author zuogangju
+ * @date 2019/3/4 14:54
+ * @version V1.0
  */
 public class TireNormal implements Tire{
 	@Override

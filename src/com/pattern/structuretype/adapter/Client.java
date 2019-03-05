@@ -1,21 +1,22 @@
 package com.pattern.structuretype.adapter;
 
 /**
- * 
- * @ClassName: Test
- * @Description: 结构型-->类适配器模式
- * @author zuozuo
- * @date 2016年9月14日 上午11:54:31
+ * Description: 结构型-->类适配器模式
+ *
+ * @author zuogangju
+ * @date 2019/3/4 15:26
+ * @version V1.0
  */
 public class Client {
 
 	public static void main(String[] args) {
 		VoltAdapter adapter = new VoltAdapter();
-		System.out.println("输出电压：" + adapter.getVolt5());// 调用接口中的方法
+		// 调用接口中的方法
+		System.out.println("输出电压：" + adapter.getVolt5());
 
 		Volt220 v = new Volt220();
 		VoltAdapter1 adapter1 = new VoltAdapter1(v);
-		System.out.println(adapter1.getVolt5());
+		System.out.println("输出电压："+adapter1.getVolt5());
 	}
 
 }

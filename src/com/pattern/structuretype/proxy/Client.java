@@ -3,11 +3,11 @@ package com.pattern.structuretype.proxy;
 import java.lang.reflect.Proxy;
 
 /**
- * 
-* @ClassName: Client
-* @Description: 结构型-->代理模式
-* @author zuozuo
-* @date 2016年9月14日 下午3:07:56
+ * Description: 结构型-->代理模式
+ *
+ * @author zuogangju
+ * @date 2019/3/4 15:41
+ * @version V1.0
  */
 public class Client {
 	public static void main(String[] args) {

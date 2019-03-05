@@ -1,10 +1,10 @@
 package com.pattern.createtype.abfactory;
 /**
- * 
-* @ClassName: NormalBrake
-* @Description: 制动系统实现类
-* @author zuozuo
-* @date 2016年9月14日 上午11:45:40
+ * Description: 普通制动系统实现
+ *
+ * @author zuogangju
+ * @date 2019/3/4 14:56
+ * @version V1.0
  */
 public class BrakeNormal implements Brake{
 	@Override

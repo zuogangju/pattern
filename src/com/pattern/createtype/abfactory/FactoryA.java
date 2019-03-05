@@ -1,12 +1,12 @@
 package com.pattern.createtype.abfactory;
 /**
- * 
-* @ClassName: AFactory
-* @Description: A工厂
-* @author zuozuo
-* @date 2016年9月14日 上午10:45:35
+ * Description: A工厂
+ *
+ * @author zuogangju
+ * @date 2019/3/4 14:57
+ * @version V1.0
  */
-public class FactoryA extends FactoryCar{
+public class FactoryA extends BaseFactoryCar {
 
 	@Override
 	public Tire createTire() {

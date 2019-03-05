@@ -1,10 +1,10 @@
 package com.pattern.behaviortype.observer;
 /**
- * 
-* @ClassName: Client
-* @Description: 行为型-->观察者模式
-* @author zuozuo
-* @date 2016年9月14日 下午3:05:56
+ * Description: 行为型-->观察者模式
+ *
+ * @author zuogangju
+ * @date 2019/3/4 16:30
+ * @version V1.0
  */
 public class Client {
 	public static void main(String[] args) {

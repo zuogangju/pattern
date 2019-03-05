@@ -1,13 +1,30 @@
 package com.pattern.createtype.prototype;
 
 import java.util.ArrayList;
-
+/**
+ * Description: 书
+ *
+ * @author zuogangju
+ * @date 2019/3/4 14:02
+ * @version V1.0
+ */
 public class Book implements Cloneable{
-
-    private int price;//价格
-    private String title;//书名
-    private String content;//内容
-    private ArrayList<String> image = new ArrayList<String>();//图片
+    /**
+     * 价格
+     */
+    private int price;
+    /**
+     * 书名
+     */
+    private String title;
+    /**
+     * 内容
+     */
+    private String content;
+    /**
+     * 图片
+     */
+    private ArrayList<String> image = new ArrayList<>();
 
     public Book() {
         super();
@@ -55,19 +72,20 @@ public class Book implements Cloneable{
     @SuppressWarnings("unchecked")
 	@Override
     protected Object clone() throws CloneNotSupportedException {
-
         Book book = (Book)super.clone();
         book.image = (ArrayList<String>) this.image.clone();
         return book;
     }
 
+    /**
+     * 显示数详情
+     */
     public void showBook(){
         System.out.println("=====Start=====");
         System.out.println("title："+title);
         for(String img : image){
             System.out.println("image name:"+img);
         }
-
         System.out.println("======End======");
     }
 }

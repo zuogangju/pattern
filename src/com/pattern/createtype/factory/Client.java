@@ -1,15 +1,18 @@
 package com.pattern.createtype.factory;
 /**
- * 
-* @ClassName: Client
-* @Description: 创建型-->工厂方法模式
-* @author zuozuo
-* @date 2016年9月14日 下午3:01:14
+ * Description: 创建型-->工厂方法模式
+ *
+ * @author zuogangju
+ * @date 2019/3/4 13:52
+ * @version V1.0
  */
 public class Client {
 	public static void main(String[] args) {
-		Factory factory = new FactoryConcrete();
-		Product product = factory.createProduct(ProductBConcrete.class);
-		product.method();
+		BaseFactory baseFactory = new FactoryConcrete();
+		BaseProduct baseProductB = baseFactory.createProduct(ProductBConcrete.class);
+		baseProductB.method();
+
+		BaseProduct baseProductA = baseFactory.createProduct(ProductAConcrete.class);
+		baseProductA.method();
 	}
 }

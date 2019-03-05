@@ -1,10 +1,10 @@
 package com.pattern.createtype.abfactory;
 /**
- * 
-* @ClassName: IEngine
-* @Description: 发动机接口
-* @author zuozuo
-* @date 2016年9月14日 上午11:44:09
+ * Description: 发动机接口
+ *
+ * @author zuogangju
+ * @date 2019/3/4 14:53
+ * @version V1.0
  */
 public interface Engine {
 	/**

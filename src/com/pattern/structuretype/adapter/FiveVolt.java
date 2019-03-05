@@ -1,13 +1,13 @@
 package com.pattern.structuretype.adapter;
 
 /**
- * 
- * @ClassName: FiveVolt
- * @Description: Target角色
- * @author zuozuo
- * @date 2016年9月14日 上午10:44:09
+ * Description: Target 角色
+ *
+ * @author zuogangju
+ * @version V1.0
+ * @date 2019/3/4 15:26
  */
 public interface FiveVolt {
 
-	public int getVolt5();
+    int getVolt5();
 }

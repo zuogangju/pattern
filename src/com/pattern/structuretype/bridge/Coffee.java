@@ -2,9 +2,9 @@ package com.pattern.structuretype.bridge;
 
 public abstract class Coffee{
 	
-	protected CoffeeAdditives impl;
+	protected BaseCoffeeAdditives impl;
 
-	public Coffee(CoffeeAdditives impl) {
+	public Coffee(BaseCoffeeAdditives impl) {
 		this.impl = impl;
 	}
 	

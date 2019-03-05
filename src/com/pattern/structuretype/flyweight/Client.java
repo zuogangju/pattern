@@ -1,10 +1,10 @@
 package com.pattern.structuretype.flyweight;
 /**
- * 
-* @ClassName: Client
-* @Description: 结构型-->享元模式
-* @author zuozuo
-* @date 2016年9月14日 下午3:02:10
+ * Description: 结构型-->享元模式
+ *
+ * @author zuogangju
+ * @date 2019/3/4 15:54
+ * @version V1.0
  */
 final class Client {
 	public static void main(String[] args) {

@@ -1,10 +1,10 @@
 package com.pattern.createtype.abfactory;
 /**
- * 
-* @ClassName: DomesticEngine
-* @Description: 发动机接口实现
-* @author zuozuo
-* @date 2016年9月14日 上午11:44:21
+ * Description: 国产发动机接口实现
+ *
+ * @author zuogangju
+ * @date 2019/3/4 14:55
+ * @version V1.0
  */
 public class EngineDomestic implements Engine{
 	@Override

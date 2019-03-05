@@ -5,11 +5,17 @@ import java.util.List;
 
 
 /**
- *  具体的被观察者类，也就是订阅的节目
+ * Description: 具体的被观察者类，也就是订阅的节目
+ *
+ * @author zuogangju
+ * @date 2019/3/4 16:31
+ * @version V1.0
  */
 public class Teleplay implements Observable{
-
-	private List<Observer> list = new ArrayList<Observer>();//储存订阅者
+	/**
+	 * 储存订阅者
+	 */
+	private List<Observer> list = new ArrayList<>();
 	
 	@Override
 	public void push(String message) {

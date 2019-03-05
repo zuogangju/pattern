@@ -1,23 +1,23 @@
 package com.pattern.createtype.factory;
 
 /**
- * 
- * @ClassName: ConcreteFactory
- * @Description: 具体工厂类
- * @author zuozuo
- * @date 2016年9月14日 下午4:05:01
+ * Description: 具体工厂
+ *
+ * @author zuogangju
+ * @date 2019/3/4 13:53
+ * @version V1.0
  */
-public class FactoryConcrete extends Factory {
+public class FactoryConcrete extends BaseFactory {
 	
 	@SuppressWarnings("unchecked")
 	@Override
-	public <T extends Product> T createProduct(Class<T> clz) {
-		Product product = null;
+	public <T extends BaseProduct> T createProduct(Class<T> clz) {
+		BaseProduct baseProduct = null;
 		try {
-			product = (Product) Class.forName(clz.getName()).newInstance();
+			baseProduct = (BaseProduct) Class.forName(clz.getName()).newInstance();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return (T) product;
+		return (T) baseProduct;
 	}
 }

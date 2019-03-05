@@ -1,11 +1,11 @@
 package com.pattern.structuretype.adapter;
 
 /**
- * 
- * @ClassName: VoltAdapter1
- * @Description: 对象适配器模式
- * @author zuozuo
- * @date 2016年9月14日 上午10:44:25
+ * Description: 对象适配器模式
+ *
+ * @author zuogangju
+ * @date 2019/3/4 15:32
+ * @version V1.0
  */
 public class VoltAdapter1 implements FiveVolt {
 

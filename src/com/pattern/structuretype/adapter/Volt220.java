@@ -1,14 +1,14 @@
 package com.pattern.structuretype.adapter;
 
 /**
- * 
- * @ClassName: Volt220
- * @Description: Adapter角色
- * @author zuozuo
- * @date 2016年9月14日 上午10:43:58
+ * Description: Adapter 角色
+ *
+ * @author zuogangju
+ * @version V1.0
+ * @date 2019/3/4 15:27
  */
 public class Volt220 {
-	public int getVolt220() {
-		return 220;
-	}
+    public int getVolt220() {
+        return 220;
+    }
 }

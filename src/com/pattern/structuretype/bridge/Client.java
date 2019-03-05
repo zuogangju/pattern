@@ -1,10 +1,10 @@
 package com.pattern.structuretype.bridge;
 /**
- * 
-* @ClassName: Client
-* @Description: 结构型-->桥接模式
-* @author zuozuo
-* @date 2016年9月14日 下午2:51:17
+ * Description: 结构型-->桥接模式
+ *
+ * @author zuogangju
+ * @date 2019/3/4 16:08
+ * @version V1.0
  */
 public class Client {
 

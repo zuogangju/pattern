@@ -1,10 +1,10 @@
 package com.pattern.structuretype.facade;
 /**
- * 
-* @ClassName: Client
-* @Description: 结构型-->外观模式
-* @author zuozuo
-* @date 2016年9月14日 下午3:00:07
+ * Description: 结构型-->外观模式
+ *
+ * @author zuogangju
+ * @date 2019/3/4 16:06
+ * @version V1.0
  */
 public class Client {
 
