@@ -1,5 +1,11 @@
-package com.pattern.behaviortype.Iterator;
-
+package com.pattern.behaviortype.iterator;
+/**
+ * Description: 迭代器接口
+ *
+ * @author zuogangju
+ * @date 2019/3/5 14:32
+ * @version V1.0
+ */
 public interface Iterator {
 
 	/**

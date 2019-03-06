@@ -1,10 +1,12 @@
 package com.pattern.behaviortype.state;
 
 /**
- * 
- * 开机状态，操作有效
- * 
- * */
+ * Description: 开机状态，操作有效
+ *
+ * @author zuogangju
+ * @date 2019/3/6 15:09
+ * @version V1.0
+ */
 public class PowerOnState implements TVState{
 
 	@Override

@@ -1,10 +1,31 @@
-package com.pattern.behaviortype.Iterator;
+package com.pattern.behaviortype.iterator;
 
+import java.util.StringJoiner;
+
+/**
+ * Description: 员工
+ *
+ * @author zuogangju
+ * @date 2019/3/5 9:17
+ * @version V1.0
+ */
 public class Employee {
-
-	private String name;// 姓名
-	private int age;// 年龄
-	private String sex;// 性别
+	/**
+	 *  姓名
+	 */
+	private String name;
+	/**
+	 *  年龄
+	 */
+	private int age;
+	/**
+	 *  性别
+	 */
+	private String sex;
+	/**
+	 *  职位
+	 */
+	private String position;
 	/**  
 	* @return name  
 	*/
@@ -61,7 +82,7 @@ public class Employee {
 		this.position = position;
 	}
 
-	private String position;// 职位
+
 
 	public Employee(String name, int age, String sex, String position) {
 		super();
@@ -71,11 +92,13 @@ public class Employee {
 		this.position = position;
 	}
 
-	// 简化代码，省略setter和getter方法
-
 	@Override
 	public String toString() {
-		return "Employee{" + "name='" + name + '\'' + ", age=" + age + ", sex="
-				+ sex + ", position='" + position + '\'' + "}";
+		return new StringJoiner(", ", Employee.class.getSimpleName() + "[", "]")
+				.add("name='" + name + "'")
+				.add("age=" + age)
+				.add("sex='" + sex + "'")
+				.add("position='" + position + "'")
+				.toString();
 	}
 }

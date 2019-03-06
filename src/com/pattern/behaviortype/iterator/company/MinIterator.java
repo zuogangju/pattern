@@ -1,9 +1,12 @@
-package com.pattern.behaviortype.Iterator;
+package com.pattern.behaviortype.iterator.company;
+
+import com.pattern.behaviortype.iterator.Employee;
+import com.pattern.behaviortype.iterator.Iterator;
 
 import java.util.List;
 
 
-public class MinIterator implements Iterator{
+public class MinIterator implements Iterator {
 
 	private List<Employee> list;
 	private int position;

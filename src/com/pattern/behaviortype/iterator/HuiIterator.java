@@ -1,4 +1,4 @@
-package com.pattern.behaviortype.Iterator;
+package com.pattern.behaviortype.iterator;
 
 
 public class HuiIterator implements Iterator{

@@ -1,4 +1,4 @@
-package com.pattern.behaviortype.Interpreter;
+package com.pattern.behaviortype.interpreter;
 
 public class NumExpression extends ArithemticExpression{
 

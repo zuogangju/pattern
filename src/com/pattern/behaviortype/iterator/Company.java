@@ -1,4 +1,6 @@
-package com.pattern.behaviortype.Iterator;
+package com.pattern.behaviortype.iterator;
+
+import com.pattern.behaviortype.iterator.Iterator;
 
 public interface Company {
 

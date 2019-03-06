@@ -1,10 +1,10 @@
 package com.pattern.behaviortype.state;
 /**
+ * Description: 行为型-->状态模式
  * 
-* @ClassName: Client
-* @Description: 行为型-->状态模式
-* @author zuozuo
-* @date 2016年9月14日 下午3:09:41
+ * @author zuogangju
+ * @date 2019/3/6 15:06
+ * @version V1.0
  */
 public class Client {
 	public static void main(String[] args) {

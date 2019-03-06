@@ -1,12 +1,15 @@
 package com.pattern.behaviortype.state;
 
 /**
- * 电视遥控器
- * 
- * */
+ * Description: 电视遥控器
+ *
+ * @author zuogangju
+ * @date 2019/3/6 15:07
+ * @version V1.0
+ */
 public class TVController implements PowerController{
 
-	TVState mTVState;
+	private TVState mTVState;
 	
 	public void setTVState(TVState mTVState){
 		this.mTVState = mTVState;

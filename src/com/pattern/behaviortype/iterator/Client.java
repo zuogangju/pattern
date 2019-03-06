@@ -1,19 +1,19 @@
-package com.pattern.behaviortype.Iterator;
+package com.pattern.behaviortype.iterator;
 
 /**
- * 
-* @ClassName: Client
-* @Description: 行为型-->迭代器模式
-* @author zuozuo
-* @date 2016年9月14日 下午3:03:16
+ * Description: 行为型-->迭代器模式
+ *
+ * @author zuogangju
+ * @date 2019/3/5 9:15
+ * @version V1.0
  */
 public class Client {
 	public static void main(String[] args) {
 		Company hui = new CompanyHui();
 		check(hui.iterator());
 		
-		Company min = new CompanyMin();
-		check(min.iterator());
+//		Company min = new CompanyMin();
+//		check(min.iterator());
 	}
 	
 	private static void check(Iterator iterator){

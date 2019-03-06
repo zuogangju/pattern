@@ -1,11 +1,20 @@
 package com.pattern.behaviortype.state;
 
 /**
- * 电源操作接口
- * 
- * */
+ * Description: 电源操作接口
+ *
+ * @author zuogangju
+ * @version V1.0
+ * @date 2019/3/6 15:09
+ */
 public interface PowerController {
-	public void powerOn();
-	
-	public void powerOff();
+    /**
+     * 开机
+     */
+    void powerOn();
+
+    /**
+     * 关机
+     */
+    void powerOff();
 }

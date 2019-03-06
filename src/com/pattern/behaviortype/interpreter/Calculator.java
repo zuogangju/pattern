@@ -1,4 +1,4 @@
-package com.pattern.behaviortype.Interpreter;
+package com.pattern.behaviortype.interpreter;
 
 import java.util.Stack;
 
